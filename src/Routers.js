@@ -6,7 +6,7 @@ import Delete from "./Pages/Delete/Delete"
 
 
 export const Router = [
-    { path: '/*', element: <Home /> },
+    { path: '*', element: <Home /> },
     { path: '/Add', element: <Add /> },
     { path: '/Delete', element: <Delete /> },
 ]
