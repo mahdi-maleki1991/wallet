@@ -1,0 +1,189 @@
+.divConAdd {
+    width: 440px;
+    height: calc(100vh - 40px);
+    border: 1px solid rgba(44, 92, 121, 0.09);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+}
+input{
+    padding-left: 5px;
+}
+.divConAdd h1 {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(0, 83, 83);
+}
+.iconWifiCart{
+    position: absolute;
+    right: 50px;
+    top: 65px;
+    transform: rotate(90deg);
+    font-size: 40px;
+    color: rgb(196, 196, 196);
+
+}
+.spanNotOnCart{
+    position: absolute;
+    top: 35px;
+    color: black;
+    right: 30px;
+    font-weight: 800;
+
+}
+.divMainBoxCart {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.divMainBoxCart img{
+    width: 46px;
+    height: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+.spanCartNum {
+position: absolute;
+top: 120px;
+left: 29px;
+font-size: 28px;
+letter-spacing: 7px;
+
+}
+
+.spanCartName {
+position: absolute;
+bottom: 50px;
+left: 25px;
+font-size: 20px;
+font-weight: 700;
+max-width: 310px;
+word-break: break-all;
+}
+
+.spanCartDate {
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.spanCartCvv{
+    position: absolute;
+    bottom: 17px;
+    left: 27px;
+    font-size: 17px;
+    font-weight: 600;  
+}
+.divInputsAdd{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.inputAddNumber{
+width: 100%;
+height: 38px;
+outline: none;
+border: 1px solid gray;
+margin-top: 10px;
+border-radius: 3px;
+
+}
+.inputAddName{
+    width: 100%;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 3px;
+    
+}
+.divCVDate{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+.inputDate{
+    width: 190px;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.inputCv{
+    width: 190px;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.selectColor{
+    width:100%;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.btnAddCart{
+    width: 96%;
+    height: 40px;
+    border: 1px solid rgb(0, 86, 86);
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btnAddCart:hover{
+    color: teal;
+    background-color: white;
+    transition: all .4s;
+}
+.btnBachHome{
+    width: 96%;
+    height: 40px;
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(85, 85, 85);
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBachHome:hover{
+    color: white;
+    background-color: rgb(85, 85, 85);
+    transition: all .4s;
+}
+

@@ -1,0 +1,145 @@
+
+.secDelete{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.divLinkKeeper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.divMainBoxCart {
+    width: 400px;
+    height: 250px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 16px 3px rgb(112, 112, 112);
+    user-select: none;
+}
+.deleteIconHover{
+    font-size: 100px;
+    position: absolute;
+    top: 18px;
+    left: 150px;
+    color: rgb(232, 64, 64);
+    z-index: 2;
+    border: 2px solid rgba(134, 22, 22, 0.505);
+    opacity: .3;
+    transition: opacity .5s;
+    cursor: pointer;
+    background-color: rgba(229, 229, 229, 0.834);
+    border-radius: 50px;
+    padding: 10px;
+
+}
+.h1NoCartDelete{
+    color: gray;
+}
+.linkGoHomeFromDel{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+    border: 1px solid gray;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 37px;
+}
+.linkGoAddFromDel{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: 600;
+    border: 1px solid green;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 37px;
+}
+.divMainBoxCart:hover .deleteIconHover{
+    opacity: 1;
+    transition: all .5s;
+}
+.divMainBoxCart img {
+    width: 46px;
+    height: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+
+
+.spanCartNum {
+    position: absolute;
+    top: 120px;
+    left: 29px;
+    font-size: 28px;
+    letter-spacing: 7px;
+
+}
+
+.spanCartName {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 310px;
+    word-break: break-all;
+}
+
+.spanCartDate {
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.spanCartCvv {
+    position: absolute;
+    bottom: 17px;
+    left: 27px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.iconWifiCart {
+    position: absolute;
+    right: 50px;
+    top: 65px;
+    transform: rotate(90deg);
+    font-size: 40px;
+    color: rgb(196, 196, 196);
+
+}
+
+.spanNotOnCart {
+    position: absolute;
+    top: 35px;
+    color: black;
+    right: 30px;
+    font-weight: 800;
+
+}

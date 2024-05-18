@@ -1,0 +1,175 @@
+.secMAinEWallet {
+    width: 440px;
+    min-height: calc(100vh - 40px);
+    /* border: 1px solid rgba(44, 92, 121, 0.841); */
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+}
+
+.secMAinEWallet h1{
+    color: rgb(0, 83, 83);
+    margin: 20px 0px 30px 0px;
+}
+.divMainBoxCart {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 16px 3px rgb(112, 112, 112);
+
+}
+
+.divMainBoxCart img {
+    width: 46px;
+    height: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.divMainBoxCartInWall {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    transform: rotate(0deg);
+    transition: left .4s , transform .4s;
+}
+
+.divMainBoxCartInWall img {
+    width: 46px;
+    height: 40px;
+    border-radius: 6px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+.cartActive{
+    left:100px;
+    transform: rotate(-10deg);
+    transition:all .8s;
+}
+.iconWifiCart{
+    position: absolute;
+    right: 50px;
+    top: 65px;
+    transform: rotate(90deg);
+    font-size: 40px;
+    color: rgb(196, 196, 196);
+
+}
+.spanCartDate {
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.spanCartCvv{
+    position: absolute;
+    bottom: 17px;
+    left: 27px;
+    font-size: 17px;
+    font-weight: 600;  
+}
+.spanCartName {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 310px;
+    word-break: break-all;
+    }
+.spanCartNum {
+    position: absolute;
+    top: 120px;
+    left: 29px;
+    font-size: 28px;
+    letter-spacing: 7px;
+    
+    }
+.spanNotOnCart{
+    position: absolute;
+    top: 35px;
+    color: black;
+    right: 30px;
+    font-weight: 800;
+
+}
+.divMainWallCarts {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px 50px 0px;
+    height: 30px;
+    margin-top: 40px;
+}
+.btnAddNewCart{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+.btnAddNewCart:hover{
+    background-color: white;
+    color: green;
+    transition: .4s;
+}
+.btnDELETECart{
+    width: 100%;
+    height: 40px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    margin-top: 10px;
+}
+.btnDELETECart:hover{
+    background-color: white;
+    color: tomato;
+    transition: .4s;
+}
+.spanLine{
+    display: flex;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    margin-top: 40px;
+}
+.alertWalletEmpty{
+    color: gray;
+    font-size: 30px;
+    margin-top: 40px;
+}
